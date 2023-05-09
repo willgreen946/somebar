@@ -1,0 +1,4 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/local/bin/somebar
+/usr/local/share/man/man1/somebar.1

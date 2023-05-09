@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "cc -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -pthread -D_THREAD_SAFE -MD -MQ somebar.p/meson-generated_xdg-shell-protocol.c.o -MF somebar.p/meson-generated_xdg-shell-protocol.c.o.d -o somebar.p/meson-generated_xdg-shell-protocol.c.o -c somebar.p/xdg-shell-protocol.c",
+    "file": "somebar.p/xdg-shell-protocol.c",
+    "output": "somebar.p/meson-generated_xdg-shell-protocol.c.o"
+  },
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "cc -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -pthread -D_THREAD_SAFE -MD -MQ somebar.p/meson-generated_xdg-output-unstable-v1-protocol.c.o -MF somebar.p/meson-generated_xdg-output-unstable-v1-protocol.c.o.d -o somebar.p/meson-generated_xdg-output-unstable-v1-protocol.c.o -c somebar.p/xdg-output-unstable-v1-protocol.c",
+    "file": "somebar.p/xdg-output-unstable-v1-protocol.c",
+    "output": "somebar.p/meson-generated_xdg-output-unstable-v1-protocol.c.o"
+  },
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "cc -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -pthread -D_THREAD_SAFE -MD -MQ somebar.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o -MF somebar.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o.d -o somebar.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o -c somebar.p/wlr-layer-shell-unstable-v1-protocol.c",
+    "file": "somebar.p/wlr-layer-shell-unstable-v1-protocol.c",
+    "output": "somebar.p/meson-generated_wlr-layer-shell-unstable-v1-protocol.c.o"
+  },
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "c++ -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -Wno-parentheses -pthread -D_THREAD_SAFE '-DSOMEBAR_VERSION=\"0.1.0\"' -MD -MQ somebar.p/src_main.cpp.o -MF somebar.p/src_main.cpp.o.d -o somebar.p/src_main.cpp.o -c ../src/main.cpp",
+    "file": "../src/main.cpp",
+    "output": "somebar.p/src_main.cpp.o"
+  },
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "c++ -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -Wno-parentheses -pthread -D_THREAD_SAFE '-DSOMEBAR_VERSION=\"0.1.0\"' -MD -MQ somebar.p/src_shm_buffer.cpp.o -MF somebar.p/src_shm_buffer.cpp.o.d -o somebar.p/src_shm_buffer.cpp.o -c ../src/shm_buffer.cpp",
+    "file": "../src/shm_buffer.cpp",
+    "output": "somebar.p/src_shm_buffer.cpp.o"
+  },
+  {
+    "directory": "/usr/home/will/github/Voidlinux-FreeBSD/somebar/build",
+    "command": "c++ -Isomebar.p -I. -I.. -I/usr/local/include -I/usr/local/include/libepoll-shim -I/usr/local/include/cairo -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/pixman-1 -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/fribidi -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -Wno-parentheses -pthread -D_THREAD_SAFE '-DSOMEBAR_VERSION=\"0.1.0\"' -MD -MQ somebar.p/src_bar.cpp.o -MF somebar.p/src_bar.cpp.o.d -o somebar.p/src_bar.cpp.o -c ../src/bar.cpp",
+    "file": "../src/bar.cpp",
+    "output": "somebar.p/src_bar.cpp.o"
+  }
+]

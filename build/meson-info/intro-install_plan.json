@@ -1,0 +1,1 @@
+{"targets": {"/usr/home/will/github/Voidlinux-FreeBSD/somebar/build/somebar": {"destination": "{bindir}/somebar", "tag": "runtime"}}, "man": {"/usr/home/will/github/Voidlinux-FreeBSD/somebar/somebar.1": {"destination": "{mandir}/man1/somebar.1", "tag": "man"}}}

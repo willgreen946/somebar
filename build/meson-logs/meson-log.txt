@@ -1,0 +1,76 @@
+Build started at 2023-05-06T18:54:00.710254
+Main binary: /usr/local/bin/python3.9
+Build Options: 
+Python system: FreeBSD
+The Meson build system
+Version: 1.0.1
+Source dir: /usr/home/will/github/Voidlinux-FreeBSD/somebar
+Build dir: /usr/home/will/github/Voidlinux-FreeBSD/somebar/build
+Build type: native build
+Project name: somebar
+Project version: 0.1.0
+C compiler for the host machine: cc (clang 14.0.5 "FreeBSD clang version 14.0.5 (https://github.com/llvm/llvm-project.git llvmorg-14.0.5-0-gc12386ae247c)")
+C linker for the host machine: cc ld.lld 14.0.5
+C++ compiler for the host machine: c++ (clang 14.0.5 "FreeBSD clang version 14.0.5 (https://github.com/llvm/llvm-project.git llvmorg-14.0.5-0-gc12386ae247c)")
+C++ linker for the host machine: c++ ld.lld 14.0.5
+C compiler for the build machine: cc (clang 14.0.5 "FreeBSD clang version 14.0.5 (https://github.com/llvm/llvm-project.git llvmorg-14.0.5-0-gc12386ae247c)")
+C linker for the build machine: cc ld.lld 14.0.5
+C++ compiler for the build machine: c++ (clang 14.0.5 "FreeBSD clang version 14.0.5 (https://github.com/llvm/llvm-project.git llvmorg-14.0.5-0-gc12386ae247c)")
+C++ linker for the build machine: c++ ld.lld 14.0.5
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency wayland-client found: YES 1.21.0 (cached)
+Dependency wayland-cursor found: YES 1.21.0 (cached)
+Dependency cairo found: YES 1.17.4 (cached)
+Dependency pango found: YES 1.50.9 (cached)
+Dependency pangocairo found: YES 1.50.9 (cached)
+Program wayland-scanner found: YES (/usr/local/bin/wayland-scanner)
+Dependency wayland-protocols found: YES 1.31 (cached)
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --variable=pkgdatadir wayland-protocols` -> 0
+stdout:
+//usr/local/share/wayland-protocols
+-----------
+Got pkgconfig variable pkgdatadir : //usr/local/share/wayland-protocols
+Build targets in project: 1
+
+Found ninja-1.11.1 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpwjwqi1kt
+Command line:  c++ /tmp/tmpwjwqi1kt/testfile.cpp -o /tmp/tmpwjwqi1kt/output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++17: YES
+Running compile:
+Working directory:  /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph9t4cxr2
+Command line:  cc /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph9t4cxr2/testfile.c -o /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph9t4cxr2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/usr/bin
+libraries: =/usr/lib/clang/14.0.5:/usr/lib
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph5wo52_v
+Command line:  c++ /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph5wo52_v/testfile.cpp -o /usr/home/will/github/Voidlinux-FreeBSD/somebar/build/meson-private/tmph5wo52_v/output.obj -c -Wno-parentheses -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/usr/bin
+libraries: =/usr/lib/clang/14.0.5:/usr/lib
+
+Compiler stderr:
+ 
